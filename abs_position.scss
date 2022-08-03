@@ -1,0 +1,13 @@
+@mixin abs-position ($top, $right, $bottom, $left) {
+    position: absolute; 
+    top: $top;
+    right: $right;
+    bottom: $bottom;
+    left: $left;
+ }
+
+//Exemmple to use
+
+// div {
+//    @include abs-position(100px, 100px, auto, auto);
+// }

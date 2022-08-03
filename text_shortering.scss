@@ -1,0 +1,11 @@
+@mixin text-shorten {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+ }
+
+// Exemple to use
+
+// div {
+//    @include text-shorten();
+// }
